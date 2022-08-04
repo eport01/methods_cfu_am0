@@ -11,17 +11,17 @@
 
 
 "Hello World".include?("Hello")
-
+#true. checks if the string "Hello" exists
 
 "Hello World".end_with?("Hello")
-
+#false. Checks if it ends with Hello
 
 "Hello World".end_with?("rld")
-
+#true. Checks if it ends with "rld"
 
 12.even?
+# true, checks if the number is even
 
 
 18.next
-
-
+# 19, checks for the next integer. prints the next integer. 
